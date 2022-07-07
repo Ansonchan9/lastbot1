@@ -166,7 +166,7 @@ public class TextMessageHandler {
                 //            final List<ImagemapAction> actions) {
                 this.reply(replyToken, ImagemapMessage
                         .builder()
-                        .baseUrl(createUri("https://www.shutterstock.com/zh-Hant/category/illustrations-clip-art"))
+                        .baseUrl(createUri("/static/rich"))
                         .altText("This is alt text")
                         .baseSize(new ImagemapBaseSize(1040, 1040))
                         .actions(Arrays.asList(
